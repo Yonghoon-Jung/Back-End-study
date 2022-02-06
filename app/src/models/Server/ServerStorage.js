@@ -3,7 +3,10 @@ const mysql = require("../../config/mysql");
 
 class ServerStorage {
   static async serverData() {
-    const query = `select * from servers;`;
+    const query = `SELECT * FROM servers;`;
+
     return await mysql.query(query);
   }
 }
+
+module.exports = ServerStorage;
