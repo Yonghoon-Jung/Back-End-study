@@ -1,6 +1,5 @@
 "use strict";
 
-const exp = require("constants");
 const express = require("express");
 const serverCtrl = require("./server.Ctrl");
 
