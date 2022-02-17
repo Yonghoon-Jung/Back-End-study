@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "Back-End-study", //자신이 만든 프로젝트 이름
+      name: "Back-End-study",
       script: "npm",
       args: "start",
     },
