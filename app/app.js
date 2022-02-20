@@ -2,10 +2,8 @@
 
 const express = require("express");
 const dotenv = require("dotenv");
-
 const app = express();
 
-// 젠킨스 테스트
 dotenv.config();
 
 app.use(express.json());
